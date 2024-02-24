@@ -35,8 +35,8 @@ If the card drawn is playable, they must play it immediately.
 Otherwise, they add the card to their hand and their turn ends.<br />
 
 Cards:<br />
+Wild card: The card has  no color until a player declares the color when they play it.<br />
 Normal card: The card has a color(blue, red, yellow, green) and either a digit(0-9) or a special instruction.
-Wild card: The card has  no color until a player declares the color when they play it.
 Special instructions:
 * Skip: The next player is skipped.
 * Reverse: The order of play is reversed.
