@@ -15,12 +15,12 @@ Use Intellij to open the Uno folder. Go to the RunOneGame class to run a single 
 Input the values you want to create the game.
 
 Values to create the game:
-* countPlayers: number of players
-* countInitialCardsPerPlayer: number of cards initially dealt to each player
-* countDigitCardsPerColor: number of normal cards for each digit and color.
+* countPlayers — number of players
+* countInitialCardsPerPlayer — number of cards initially dealt to each player
+* countDigitCardsPerColor — number of normal cards for each digit and color.
   * For example, 2 means 2 Blue “0” cards, 2 Green “0” cards, 2 Yellow "0" cards, 2 Red "0" cards,
     2 Blue "1" cards, 2 Green "1" cards, etc.
-* countSpecialCardsPerColor: number of special cards of each kind for each color.
+* countSpecialCardsPerColor — number of special cards of each kind for each color.
    * For example, 1 means 1 Red Skip card, 1 Yellow Skip card, ..., 1 Red Reverse card, 1 Yellow Reverse card, etc.
      May be 0. There are is only Skip, Reverse and Draw 2.
 * countWildCards — number of total wild cards. May be 0.
