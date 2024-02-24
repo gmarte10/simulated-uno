@@ -39,7 +39,7 @@ Normal card: The card has a color(blue, red, yellow, green) and either a digit(0
 Special instructions:
 * Skip: The next player is skipped.
 * Reverse: The order of play is reversed.
-* Draw Two: The next player must draw two cards and then their turn is over.
+* Draw Two: The next player must draw two cards and then their turn is over.<br />
 Wild card: The card has  no color until a player declares the color when they play it.<br />
 
 Playable Cards:<br />
