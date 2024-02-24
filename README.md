@@ -25,17 +25,14 @@ Values to create the game:
      May be 0. There are is only Skip, Reverse and Draw 2.
 * countWildCards — number of total wild cards. May be 0.
 
-
 ## Modified Rules:
 Simplified version of uno. Follows the standard rules with the modifications below:
-
 
 Taking a turn:
 If a player has any playable card, they must play one of them and then their turn ends. 
 If they don’t have any playable cards, then they must draw a card from the draw pile. 
 If the card drawn is playable, they must play it immediately. 
 Otherwise, they add the card to their hand and their turn ends.
-
 
 Cards:
 Normal card: The card has a color(blue, red, yellow, green) and either a digit(0-9) or a special instruction.
@@ -45,13 +42,11 @@ Special instructions:
 * Draw Two: The next player must draw two cards and then their turn is over.
 Wild card: The card has  no color until a player declares the color when they play it.
 
-
 Playable Cards:
 A card is playable if it can be put on top of the discard pile.
 * A normal card is playable if it matches the color or the face of the card on top of the discard pile.
   Ex: Blue-3 can be played on top of a Blue-3, Blue-Skip, Yellow-3, but not on a Green-1.
 * A wild card is always playable. If it is on top of the discard pile, it is treated as whatever color the player chose it to be.
-
 
 Running out of draw cards:
 If the draw pile is empty, the discard pile replaces it.
